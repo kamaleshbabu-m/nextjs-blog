@@ -3,9 +3,9 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import profilePic from '../public/favicon.ico';
+import profilePic from '../public/images/profile.png';
 
-const name = 'Your Name';
+const name = 'My Blogs';
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
